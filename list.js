@@ -12,7 +12,7 @@ $(document).ready(function() {
                     <div class="col-3">${value.price}</div>
                 </div>
             </li>`;
-        });$('#main').html(output);
+        });$('#app').html(output);
     });
 });
 
@@ -70,6 +70,6 @@ $(document).ready(function() {
                 </div>
             </li>`;
         });
-        $('#dese').html(output);
+        $('#desert').html(output);
     });
 });
