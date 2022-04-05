@@ -30,8 +30,8 @@ $(document).ready(function () {
         $.each(data.desert, function (key, value) {
             output = output +
          `<div class="col-lg-5 col-md-5 col-sm-5 mx-auto">
-            <div class="card my-3 p-3">
-                <div class="card-body">
+            <div class="card my-3">
+                <div class="card-body p-3">
                     <div class="row">
                         <img class="align-middle d-flex justify-content-center"
                             src="${value.pic}">
