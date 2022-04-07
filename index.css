@@ -9,11 +9,26 @@ div{
     font-size: 25px;
 }
 
-/*CSS for the navigation bar: 
-a.active -keeps the highlight on the nav link while on the page. Requires "active" to be in the <a> tag class of the page.
-a:active -highlight link while it is being clicked
-a:hover -highlight link while it's hovered over. */
-#topNav a.active, #topNav a:active, #topNav a:hover{ 
-        background-color: #4000d6bd;
-        color: white;
+img{
+    width: 300px;
+    height: 175px;
 }
+#wnImg{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 350px;
+}
+
+@media screen and (max-width: 750px) {
+    img{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #wnImg{
+        width: 300px;
+    }
+}
+
