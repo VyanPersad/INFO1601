@@ -20,15 +20,20 @@ img{
     height: 350px;
 }
 
+#mlImg{
+    height: 300px;
+}
+
 @media screen and (max-width: 750px) {
-    img{
-        height: 250px;
+    #wnImg #mlInmg{
+        height: 300px;
     }
 }
 
 @media screen and (max-width: 1000px) {
     #wnImg{
         width: 300px;
+
     }
 }
 
