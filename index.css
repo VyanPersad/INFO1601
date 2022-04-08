@@ -24,16 +24,14 @@ img{
     height: 300px;
 }
 
+
 @media screen and (max-width: 750px) {
-    #wnImg #mlInmg{
-        height: 300px;
-    }
-}
-
-@media screen and (max-width: 1000px) {
-    #wnImg{
+    img{
         width: 300px;
-
+        height: 250px;
+    }
+    #wnImg #mlInmg{
+        height: 250px;
     }
 }
 

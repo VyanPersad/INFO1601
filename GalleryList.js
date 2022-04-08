@@ -8,7 +8,7 @@ $(document).ready(function () {
                     <div class="mx-auto p-1">
                         <div class="card-body p-1">
                             <div class="row">
-                                <img class="align-middle" src="${value.pic}">
+                                <img class="align-middle" id="wnImg" src="${value.pic}">
                             </div>
                         </div>
                         <div class="card-footer text-center">
@@ -17,7 +17,7 @@ $(document).ready(function () {
                             </div>
                         </div>
                     </div>
-                </div> `;
+                </div>`;
         });
         $('#wineGallery').html(output);
     });
@@ -29,7 +29,7 @@ $(document).ready(function () {
         var output = ' ';
         $.each(data.desert, function (key, value) {
             output = output +
-         `<div class="col-lg-5 col-md-5 col-sm-5 mx-auto">
+                `<div class="col-lg-5 col-md-5 col-sm-5 mx-auto">
             <div class="card my-3">
                 <div class="card-body p-3">
                     <div class="row">

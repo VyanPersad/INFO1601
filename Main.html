@@ -205,6 +205,26 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
-<script src="/list.js"></script>
+<script>
+    //Main Menu Display
+    $(document).ready(function () {
+        $.getJSON('Menus/Main.json', function (data) {
+            var output = ' ';
+            $.each(data.main, function (key, value) {
+                output = output +
+                    `<li class="card m-1 p-1"> 
+                <div class="row p-3">
+                    <div class="col-1">${value.item}</div>
+                    <div class="col-2">${value.name}</div>
+                    <div class="col-4">${value.desc}</div>
+                    <div class="col-2">${value.serves}</div>
+                    <div class="col-3">${value.price}</div>
+                </div>
+            </li>`;
+            });
+            $('#main').html(output);
+        });
+    });
+</script>
 
 </html>
