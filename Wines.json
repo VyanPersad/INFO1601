@@ -1,0 +1,18 @@
+{
+    "wine": [
+        {
+            "item":"1", 
+            "name": "Spaghetti",
+            "price": "$25.00",
+            "serves":"4",
+            "desc":"Some little tidbit about the meal??"
+        },
+        {
+            "item":"2",
+            "name": "Pizza",
+            "price": "$20.00",
+            "serves":"4",
+            "pic":""
+        }
+    ]
+}
