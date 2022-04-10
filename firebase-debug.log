@@ -1,0 +1,29 @@
+[debug] [2022-04-10T14:10:30.242Z] ----------------------------------------------------------------------
+[debug] [2022-04-10T14:10:30.250Z] Command:       C:\Users\Faith\DOCUME~1\INFO16~1\firebase-tools-instant-win.exe C:\Users\Faith\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase serve
+[debug] [2022-04-10T14:10:30.251Z] CLI Version:   10.6.0
+[debug] [2022-04-10T14:10:30.251Z] Platform:      win32
+[debug] [2022-04-10T14:10:30.251Z] Node Version:  v12.18.1
+[debug] [2022-04-10T14:10:30.271Z] Time:          Sun Apr 10 2022 11:10:30 GMT-0300 (Argentina Standard Time)
+[debug] [2022-04-10T14:10:30.271Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-04-10T14:10:30.479Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-04-10T14:10:30.480Z] > authorizing via signed-in user (faitha.jrose@gmail.com)
+[debug] [2022-04-10T14:10:30.480Z] [iam] checking project la-fantasia-info1601 for permissions ["firebase.projects.get"]
+[debug] [2022-04-10T14:10:30.511Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/la-fantasia-info1601:testIamPermissions [none]
+[debug] [2022-04-10T14:10:30.511Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/la-fantasia-info1601:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-04-10T14:10:31.170Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/la-fantasia-info1601:testIamPermissions 200
+[debug] [2022-04-10T14:10:31.172Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/la-fantasia-info1601:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-04-10T14:10:31.182Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/la-fantasia-info1601 [none]
+[debug] [2022-04-10T14:10:31.643Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/la-fantasia-info1601 200
+[debug] [2022-04-10T14:10:31.644Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/la-fantasia-info1601 {"projectId":"la-fantasia-info1601","projectNumber":"213209469275","displayName":"La Fantasia","name":"projects/la-fantasia-info1601","resources":{"hostingSite":"la-fantasia-info1601"},"state":"ACTIVE"}
+[info] 
+[info] === Serving from 'C:\Users\Faith\Documents\INFO 1601'...
+[info] 
+[debug] [2022-04-10T14:10:31.699Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/la-fantasia-info1601/sites 
+[debug] [2022-04-10T14:10:32.425Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/la-fantasia-info1601/sites 200
+[debug] [2022-04-10T14:10:32.426Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/la-fantasia-info1601/sites {"sites":[{"name":"projects/213209469275/sites/la-fantasia-info1601","defaultUrl":"https://la-fantasia-info1601.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2022-04-10T14:10:32.428Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/la-fantasia-info1601/webApps/-/config [none]
+[debug] [2022-04-10T14:10:32.982Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/la-fantasia-info1601/webApps/-/config 200
+[debug] [2022-04-10T14:10:32.983Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/la-fantasia-info1601/webApps/-/config {"projectId":"la-fantasia-info1601","storageBucket":"la-fantasia-info1601.appspot.com","apiKey":"AIzaSyAcedhpyxEKTbU6o_ce_5WablS6efDXczI","authDomain":"la-fantasia-info1601.firebaseapp.com","messagingSenderId":"213209469275"}
+[info] i  hosting: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}

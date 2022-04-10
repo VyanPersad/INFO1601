@@ -1,0 +1,18 @@
+{
+    "appetizer": [
+        {
+            "item":"1", 
+            "name": "Bread Sticks",
+            "price": "$25.00",
+            "serves":"4",
+            "pic":""
+        },
+        {
+            "item":"2",
+            "name": "Garlic Bread",
+            "price": "$20.00",
+            "serves":"4",
+            "pic":""
+        }
+    ]
+}
