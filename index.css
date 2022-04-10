@@ -8,30 +8,180 @@ div{
     font-family: 'Italianno';
     font-size: 25px;
 }
-
-img{
-    width: 300px;
-    height: 175px;
+a{
+    text-decoration: none;
 }
 #wnImg{
     margin-left: auto;
     margin-right: auto;
     width: 300px;
-    height: 350px;
+    height: 270px;
 }
 
 #mlImg{
     height: 300px;
+    width:auto;
+    left:auto;
+    right:auto;
 }
 
+#topNav a {
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    color: white;
+}
+
+#topNav a.active, #topNav a:active, #topNav a:hover {
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #62ddd6;
+    color: white;
+}
+
+div{
+    color:#2f616d;
+}
+body{
+    position: relative;
+}
+
+header {
+    background-image: url("https://natashaskitchen.com/wp-content/uploads/2014/02/Creamy-Shrimp-Alfredo-Pasta-4-600x400.jpg");
+    height: fit-content;
+    width: 100%;
+    background-repeat: none;
+    background-size: 100%;
+    background-position: center;
+    z-index: 10000;
+    position: relative;
+}
+
+#header-text{
+    width: 100%;
+    margin: 0;
+    height: fit-content;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.2);
+    background-size:100%;
+    color: white;
+}
+
+#topNav{
+    width: 100%;
+    height:100%;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.2);
+    background-size: 100%;
+    color: white;
+}
+
+#header-text a {
+    color: white;
+}
+#socialMedia a:hover {
+    color: #6efdf6;
+}
+
+.bluebtn {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: fit-content;
+    font-family: 'Italianno';
+    background-color: #6efdf6;
+    color: #217aa0;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 15px;
+    font-size: 30px;
+    border-bottom: 4px solid #299ED2;
+    transition: 0.2s all;
+}
+
+.bluebtn:hover {
+    color: #217aa0;
+    background-color: #46ebe2;
+}
+
+.bluebtn:active {
+    box-shadow: 2px 2px 28px 1px rgba(93, 201, 209, 0.353);
+    background-color: #57c7c1;
+}
+
+.contactbtn{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: fit-content;
+    font-family: 'Italianno';
+    background-color: #e7f8f7;
+    color: #217aa0;
+    text-decoration: none;
+    padding: 5px 6px;
+    border-radius: 15px;
+    font-size: 25px;
+    border-bottom: 4px solid #75c4e6;
+    transition: 0.2s all;
+}
+
+.contactbtn:hover {
+    background-color: #6efdf6;
+    border-bottom: 4px solid #299ED2;
+}
+
+#backbtn{
+    width:fit-content;
+    height:fit-content;
+}
+
+#backbtn:hover {
+    box-shadow: 0px 0px 10px 2px rgba(255, 255, 255, 0.671);
+}
+
+body{
+    min-height: 100vh;
+}
+
+footer{
+    overflow-x: hidden;
+    background-image: url("https://natashaskitchen.com/wp-content/uploads/2014/02/Creamy-Shrimp-Alfredo-Pasta-4-600x400.jpg");
+    background-repeat:no-repeat;
+    background-position:bottom;
+    background-size: cover;
+    height:fit-content;
+    color:white;
+    bottom:0;
+}
+
+#footer-text{
+    background-color: rgba(0, 0, 0, 0.7);
+    height:100%;
+    width:100%;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    color: white;
+}
+
+#footer-text div{
+    color:rgba(255, 255, 255, 0.781);
+}
+
+#footer-text a{
+    color: rgba(182, 233, 255, 0.781);
+}
+
+#footer-text a:hover{
+    color: rgba(255, 255, 255, 1);
+}
 
 @media screen and (max-width: 750px) {
     img{
         width: 300px;
         height: 250px;
     }
-    #wnImg #mlInmg{
-        height: 250px;
+    #wnImg, #mlInmg{
+        height: 220px;
     }
 }
 
