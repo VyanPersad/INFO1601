@@ -11,14 +11,16 @@
     <link href="index.css" rel="stylesheet" type="text/css">
 </head>
 
-<header class="container mt-3">
-    <div class="row d-flex justify-content-center">
-        <div class="col-lg-6 col-md-6 col-sm-6align-middle">
-            <p class="h1 mt-3 text-center" style="font-family: 'Italianno'; font-size: 90px; text-decoration:none;">La
-                Fantasia</p>
+<header class="mt-0">
+    <div id="header-text" class="row justify-content-center">
+        <div class="col-lg-6 col-md-6 col-sm-6 align-middle">
+            <a href="index.html" style="text-decoration:none;">
+                <p class="h1 mt-3 text-center" style="font-family: 'Italianno'; font-size: 90px;">La
+                    Fantasia</p>
+            </a>
         </div>
         <!--Social Media-->
-        <div class="col-lg-4 col-md-4 col-sm-6 my-auto text-center ">
+        <div id="socialMedia" class="col-lg-4 col-md-4 col-sm-6 my-auto text-center ">
             <a href="https://twitter.com/home">
                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-twitter"
                     viewBox="0 0 16 16">
@@ -38,80 +40,40 @@
                         d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
                 </svg></a>
         </div>
-    </div>
-</header>
-<nav class="container mt-3">
-    <div class="row">
-        <nav class="card col-lg-12 col-md-12 col-sm-12">
-            <ul class="nav d-flex justify-content-around w-100 h-3">
-                <li class="nav-item w-25">
-                    <a class="nav-link text-center" href="Appetizer.html">
-                        <p class="h1 my-2" style="font-family: 'Italianno';">Appetizer</p>
-                    </a>
-                </li>
-                <li class="nav-item w-25">
-                    <a class="nav-link text-center" href="Main.html">
-                        <p class="h1 my-2" style="font-family: 'Italianno';">Main</p>
-                    </a>
-                </li>
-                <li class="nav-item w-25">
-                    <a class="nav-link text-center" href="Dessert.html">
-                        <p class="h1 my-2" style="font-family: 'Italianno';">Dessert</p>
-                    </a>
-                </li>
-                <li class="nav-item w-25">
-                    <a class="nav-link text-center" href="Wine.html">
-                        <p class="h1 my-2" style="font-family: 'Italianno';">Wines</p>
-                    </a>
-                </li>
-            </ul>
+        <nav class="mt-3" id="topNav">
+            <div class="row mx-auto container">
+                <nav class="col-lg-12 col-md-12 col-xs-6 pt-2" id="topNav-text">
+                    <ul class=" nav justify-content-around w-100 h2">
+                        <li class="nav-item w-25 p-1"><a href="index.html" class="nav-link text-center h2 active"
+                                style="font-family: 'Italianno';">Homepage</a></li>
+                        <li class="nav-item dropdown w-25 p-1" style="font-family: 'Italianno';">
+                            <a class="nav-link dropdown-toggle h2 text-center" href="mealGallery.html" id="DropdownMenu" 
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">Menu</a>
+                            <ul class="dropdown-menu dropdown-menu-end text-center" aria-labelledby="DropdownMenu"">
+                                <li><a class="dropdown-item h2" href="mealGallery.html" style="color:black;">Meal
+                                        Gallery</a></li>
+                                <li><a class="dropdown-item h2" href="Appetizer.html" style="color:black;">Menu
+                                        Listings</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item w-25 p-1"><a href="Reservation.html" class="nav-link text-center h2"
+                                style="font-family: 'Italianno';">Reservation</a></li>
+                        <li class="nav-item w-25 p-1"><a href="Contact.html" class="nav-link text-center h2"
+                                style="font-family: 'Italianno';">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
         </nav>
     </div>
-</nav>
+</header>
 
 <body>
-    <!--Contact Buttons-->
-    <div class="container mt-3 card p-3">
-        <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12 text-center">
-                <a href="tel:868-716-5899">
-                    <button type="button" class="m-1 btn btn-danger w-100">
-                        <div class="row">
-                            <svg class="col-4 my-auto bi bi-whatsapp" xmlns="http://www.w3.org/2000/svg" width="25"
-                                height="25" fill="currentColor" viewBox="0 0 16 16">
-                                <path
-                                    d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
-                            </svg>
-                            <p class="col-6 h1 m-0">Reservation</p>
-                        </div>
-                    </button>
-                </a>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 text-center">
-                <a href="tel:868-716-5899">
-                    <button type="button" class="m-1 btn btn-success w-100">
-                        <div class="row">
-                            <svg class="col-4 my-auto  bi bi-whatsapp" xmlns="http://www.w3.org/2000/svg" width="25"
-                                height="25" fill="currentColor" viewBox="0 0 16 16">
-                                <path
-                                    d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
-                            </svg>
-                            <p class="col-6 h1 m-0">Order</p>
-                        </div>
-                    </button>
-                </a>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 text-center">
-                <a href="Reservation.html">
-                    <button type="button" class="m-1 btn btn-success w-100">
-                        <div class="row">
-                            <p class="col-12 h1 m-0">Order Online</p>
-                        </div>
-                    </button>
-                </a>
-            </div>
-        </div>
+    <div class="mx-auto m-3 h1 text-center">
+        <p style="font-size:3rem;">
+            Welcome to fine Italian Dining
+        </p>
     </div>
+
     <!--Twitter Post-->
     <div class="container mt-3 card p-auto">
         <div class="row">
@@ -121,79 +83,133 @@
                 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
             <div class="col-md-6 col-sm-12 text-center mt-3">
-                <div class="card m-0cp-1">
+                <div class="card m-0 cp-1">
                     <div class="card-header text-center">
                         <div class="row mx-auto">
-                            <p class="text-center m-0 h2">Check Out out Our Specials</p>
+                            <p class="text-center m-0 h2">Check Out Our Specials</p>
                         </div>
                     </div>
-                    <div class="card-body text-start">
-                        <p class="h3">Daily Specials</p>
-                        <p class="h4">Call to enquire</p>
-                        <p class="h4">Call to place an order</p>
-                        <p class="h4">Or</p>
-                        <p class="h4">Order Online Below</p>
+                    <div class="card-body">
+                        <p class="h3 text-start">Use our direct links below to:</p>
+                        <p class="h3 text-start">Call for enquiries 
+                        <p class="h3 text-start">Call to place an order</p>
+                        <p class="h3 text-start">Or</p>
+                        <p class="h3 text-start">Order Online Now!</p>
                     </div>
                 </div>
-                <div class="col-lg-12 text-center">
-                    <a href="Reservation.html">
-                        <button type="button" class="mt-3 btn btn-success w-100">
-                            <div class="row">
-                                <p class="col-12 h1 m-0">Order Online Now</p>
-                            </div>
-                        </button>
-                    </a>
+                <!--Contact Buttons-->
+                <div class="col-md-12 col-sm-12 container mt-3 card p-3">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+                            <a href="tel:868-716-5899">
+                                <button type="button" class="m-1 btn w-100 contactbtn">
+                                    <div class="row">
+                                        <svg class="col-4 my-auto bi bi-whatsapp" xmlns="http://www.w3.org/2000/svg" width="25"
+                                            height="25" fill="currentColor" viewBox="0 0 16 16">
+                                            <path
+                                                d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                                        </svg>
+                                        <p class="col-8 h1 m-0">Reservation</p>
+                                    </div>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+                            <a href="tel:868-716-5899">
+                                <button type="button" class="m-1 btn w-100 contactbtn">
+                                    <div class="row">
+                                        <svg class="col-4 my-auto  bi bi-whatsapp" xmlns="http://www.w3.org/2000/svg" width="25"
+                                            height="25" fill="currentColor" viewBox="0 0 16 16">
+                                            <path
+                                                d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                                        </svg>
+                                        <p class="col-6 h1 m-0">Order</p>
+                                    </div>
+                                </button>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 text-center mx-auto">
+                            <a href="Reservation.html">
+                                <button type="button" class="m-1 btn w-100 contactbtn">
+                                    <div class="row">
+                                        <p class="col-12 h1 m-0">Order Online</p>
+                                    </div>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
     <!--Courses-->
-    <div class="container mt-3 card p-auto">
+    <!--Meal Gallery-->
+    <div class="container mt-3 p-auto">
         <div class="row">
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                <a class="card m-3 ch" href="Appetizer.html">
-                    <div class="card-body">
-                        <div class="row">
-                            <img class="align-middle d-flex justify-content-center"
-                                src="https://images-gmi-pmc.edge-generalmills.com/3cdb9116-74bc-496a-b194-08299ea8d872.jpg">
-                        </div>
-                    </div>
-                    <div class="card-footer text-center">
+            <div class="col-lg-12 col-md-12 px-auto">
+                <div class="card my-2 mx-0">
+                    <div class="card-header text-center">
                         <div class="row mx-auto">
-                            <p class="text-center h1 m-0">Appetizer</p>
+                            <p class="text-center h1 m-0">Menu &  Dishes</p>
                         </div>
                     </div>
-                </a>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                <a class="card m-3 ch " href="Main.html">
-                    <div class="card-body">
-                        <div class="row">
-                            <img class="align-middle d-flex justify-content-center"
-                                src="https://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2012/9/24/1/top10_chickenparmesan_s4x3.jpg.rend.hgtvcom.616.462.suffix/1373911652641.jpeg">
+                    <p class="card-title text-center h2 m-3">We offer 3-course meals with appetizers, a main dish and dessert.</p>
+                    <p class="card-title text-center h2">Our selection for the course meals include: Meat, Vegetarian and Seafood.</p>
+                    <div class="row mx-auto">
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                            <a class="card m-3 ch" href="Appetizer.html">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <img class="align-middle d-flex justify-content-center mx-auto"
+                                            src="https://handletheheat.com/wp-content/uploads/2013/06/Stuffed-Mushrooms-480x270.jpg">
+                                    </div>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <div class="row mx-auto">
+                                        <p class="text-center h1 m-0">Appetizer</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                            <a class="card m-3 ch " href="Main.html">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <img class="align-middle d-flex justify-content-center"
+                                            src="https://i.ytimg.com/vi/2qLwkT1F4Lc/maxresdefault.jpg">
+                                    </div>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <div class="row mx-auto">
+                                        <p class="text-center h1 m-0">Main</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mx-auto">
+                            <a class="card m-3 ch" href="Dessert.html">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <img class="align-middle d-flex justify-content-center"
+                                            src="https://www.ricetteperbimby.it/foto-ricette/gelato-cioccolato-fondente-bimby-2.jpg">
+                                    </div>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <div class="row mx-auto">
+                                        <p class="text-center h1 m-0">Dessert</p>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
-                    <div class="card-footer text-center">
-                        <div class="row mx-auto">
-                            <p class="text-center h1 m-0">Main</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                <a class="card m-3 ch" href="Dessert.html">
-                    <div class="card-body">
-                        <div class="row">
-                            <img class="align-middle d-flex justify-content-center"
-                                src="data:image/jpeg;base64,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">
-                        </div>
-                    </div>
-                    <div class="card-footer text-center">
-                        <div class="row mx-auto">
-                            <p class="text-center h1 m-0">Dessert</p>
-                        </div>
-                    </div>
-                </a>
+                    <p class="card-title h2 mt-4 mx-auto">Click the cards above to see their price listings OR view them all in our</p>
+                    <a href="mealGallery.html" class="mx-auto">
+                        <button type="button" class="btn bluebtn m-3">
+                            <p class="col-12 h1 mx-auto my-0">Meal Gallery</p>
+                        </button>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -217,7 +233,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-6 col-md-6 px-auto">
+            <div class="col-lg-6 col-md-6 px-auto" style="height: min-content;">
                 <div class="card my-2 mx-0">
                     <div class="card-header text-center">
                         <div class="row mx-auto">
@@ -228,61 +244,15 @@
                         <p class="card-title text-start h2">Come and enjoy our selection of wine & spirits.</p>
                         <p class="card-text  text-start h2 mb-2">Our Selection includes:</p>
                         <ul class="list-group h3">
-                            <li class="list-group-item text-start border-0">Gavi de Gavi</li>
-                            <li class="list-group-item text-start border-0">Brunello</li>
-                            <li class="list-group-item text-start border-0">Lugana Doc</li>
-                            <li class="list-group-item text-start border-0">Pinot Grigio</li>
-                            <li class="list-group-item text-start border-0">Amarone</li>
+                            <li class="list-group-item text-start border-0 m-0">Gavi de Gavi</li>
+                            <li class="list-group-item text-start border-0 m-0">Brunello</li>
+                            <li class="list-group-item text-start border-0 m-0">Lugana Doc</li>
+                            <li class="list-group-item text-start border-0 m-0">Pinot Grigio</li>
+                            <li class="list-group-item text-start border-0 m-0">Amarone</li>
                         </ul>
                         <a href="Wine.html">
-                            <button type="button" class="btn btn-success w-100">
-                                <p class="col-6 h1 mx-auto h3 my-0">View Our Wine List</p>
-                            </button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Meal Gallery-->
-    <div class="container mt-3 card p-auto">
-        <div class="row">
-            <div class="col-lg-6 col-md-6 px-auto">
-                <a href="mealGallery.html">
-                    <div class="card my-2 mx-0">
-                        <div class="card-body">
-                            <div class="row">
-                                <img class="align-middle d-flex justify-content-center" id="mlImg"
-                                    src="https://handletheheat.com/wp-content/uploads/2013/06/Stuffed-Mushrooms-480x270.jpg">
-                            </div>
-                        </div>
-                        <div class="card-footer text-center">
-                            <div class="row mx-auto">
-                                <p class="text-center h2 m-0">3 Course Meals</p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-6 col-md-6 px-auto">
-                <div class="card my-2 mx-0">
-                    <div class="card-header text-center">
-                        <div class="row mx-auto">
-                            <p class="text-center h1 m-0">3 Course Meals</p>
-                        </div>
-                    </div>
-                    <div class="card-body text-center">
-                        <p class="card-title text-start h2">Choose a 3 Course Meal</p>
-                        <p class="card-text  text-start h2 mb-2">Our Selection includes:</p>
-                        <ul class="list-group h3">
-                            <li class="list-group-item text-start border-0">Meat</li>
-                            <li class="list-group-item text-start border-0">Vegetarian</li>
-                            <li class="list-group-item text-start border-0">Sea Food</li>
-
-                        </ul>
-                        <a href="mealGallery.html">
-                            <button type="button" class="btn btn-success w-100">
-                                <p class="col-6 h1 mx-auto my-0">View Our Meals</p>
+                            <button type="button" class="btn bluebtn">
+                                <p class="col-12 h1 mx-auto h3 my-0">View Our Wine List</p>
                             </button>
                         </a>
                     </div>
@@ -291,7 +261,7 @@
         </div>
     </div>
     <!--Location-->
-    <div class="container mt-3 card p-auto">
+    <div class="container mt-3 mb-3 card p-auto">
         <div class="row p-2">
             <div class="col-lg-6 col-md-12 text-center">
                 <iframe src="https://www.google.com/maps/d/u/2/embed?mid=1IeUDkaeqBH_6mUAxI1Gyk5uR9OUVfADq&ehbc=2E312F"
@@ -315,23 +285,26 @@
     </div>
 </body>
 
-<footer class="container my-3">
-    <div class="row mt-3 ms-1">
-        <div class="col-lg-3 col-md-6 text-center mt-4">
+<footer class="mt-3">
+    <div id="footer-text">
+    <div class="row mx-auto">
+        <div class="col-lg-3 col-md-3 text-center mt-4 mx-auto">
             <p class="h1">Contact</p>
-            <a type="button" class="btn btn-success w-75" href="Contact.html">
-                <p class="col-6 h1 mx-auto">Feedback</p>
+            <div class="row">
+            <a type="button" class="btn btn-primary col-5 mx-2" style="width:45%;" href="Contact.html#feedback">
+                <p class="col-12 h2 m-auto" style="color:white;">Feedback</p>
             </a>
-            <a type="button" href="mailto:lafantasia2022@gmail.com" class="mt-1 btn btn-danger py-auto w-75">
-                <div class="row">
-                    <svg class="col-3 bi bi-envelope my-auto" width="25" height="25" xmlns="http://www.w3.org/2000/svg"
+            <a type="button" href="mailto:lafantasia2022@gmail.com" class="col-5 btn btn-primary py-auto m-auto" style="width:45%;">
+                <div class="row" style="color:white;">
+                    <svg class="col-4 bi bi-envelope my-auto mx-0" width="25" height="25" xmlns="http://www.w3.org/2000/svg"
                         fill="currentColor" viewBox="0 0 16 16">
                         <path
                             d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
                     </svg>
-                    <p class="col-6 h1 m-0">Email</p>
+                    <p class="col-lg-5 col-md-8 h2 m-auto mx-0">Email</p>
                 </div>
             </a>
+            </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center mt-4">
             <p class="h1">Social Media</p>
@@ -365,7 +338,7 @@
                     <a href="Appetizer.html">Appetizers</a>
                 </div>
                 <div class="col-4 mx-auto text-center">
-                    <a href="Dessert.html">Desert</a>
+                    <a href="Dessert.html">Dessert</a>
                     <a href="Wine.html">Wine</a>
                     <a href="mealGallery.html">Gallery</a>
                 </div>
@@ -374,10 +347,11 @@
         <div class="col-lg-3 col-md-6 text-center mt-4">
             <p class="h1">About Us</p>
             <div class="row">
-                <a href="About.html">Learn More About Us</a>
-                <a href="Reviews.html">See What others have said</a>
+                <a href="About.html">Learn more about us</a>
+                <a href="Reviews.html">See what others have said</a>
             </div>
         </div>
+    </div>
     </div>
 </footer>
 <!-- Latest compiled and minified JavaScript -->

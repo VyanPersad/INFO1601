@@ -33,7 +33,7 @@ $(document).ready(function () {
             <div class="card my-3">
                 <div class="card-body p-3">
                     <div class="row">
-                        <img class="align-middle d-flex justify-content-center"
+                        <img class="align-middle d-flex justify-content-center" style="height:200px;"
                             src="${value.pic}">
                     </div>
                 </div>
