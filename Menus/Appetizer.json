@@ -1,37 +1,37 @@
 {
     "appetizer": [
         {
-            "item":"1", 
+            "item": "1",
             "name": "Stuffed Mushrooms",
-            "price": "$25.00",
-            "serves":"4",
-            "pic":"https://handletheheat.com/wp-content/uploads/2013/06/Stuffed-Mushrooms-480x270.jpg"
+            "price": "$55.00",
+            "serves": "4",
+            "pic": "https://handletheheat.com/wp-content/uploads/2013/06/Stuffed-Mushrooms-480x270.jpg"
         },
         {
             "item": "2",
             "name": "Fruit Bruschetta",
-            "price": "$20.00",
+            "price": "$45.00",
             "serves": "3",
             "pic": "https://www.thecookierookie.com/wp-content/uploads/2014/03/fruit2-1024x1024.jpg"
         },
         {
             "item": "3",
             "name": "Cheesy Garlic Bread",
-            "price": "$20.00",
+            "price": "$30.00",
             "serves": "4",
             "pic": "https://cdn.dotpe.in/longtail/item_thumbnails/4037439/N0QGB9AO.jpeg"
         },
         {
             "item": "4",
             "name": "Paleo Crab Cakes",
-            "price": "$25.00",
+            "price": "$55.00",
             "serves": "4",
             "pic": "https://healinggourmet.com/wp-content/uploads/2015/03/IMG_9259rclr-1600.jpg"
         },
         {
             "item": "5",
             "name": "Fried Calamari",
-            "price": "$20.00",
+            "price": "$50.00",
             "serves": "4",
             "pic": "http://www.italianfoodforever.com/wp-content/uploads/2008/07/friedcalamari.jpg"
         }

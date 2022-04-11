@@ -1,17 +1,17 @@
 {
     "main": [
         {
-            "item":"1", 
+            "item": "1",
             "name": "Chicken Milanese",
-            "price": "$35.00",
-            "serves":"3",
-            "desc":"Chicken Breast cutlets",
-            "pic":"https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2021-08-Chicken-Milanese%2FKitchnKitchn3424-1_01"
+            "price": "$80.00",
+            "serves": "3",
+            "desc": "Chicken Breast cutlets",
+            "pic": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2021-08-Chicken-Milanese%2FKitchnKitchn3424-1_01"
         },
         {
             "item": "2",
             "name": "Vegan Lasagna",
-            "price": "$40.00",
+            "price": "$65.00",
             "serves": "4",
             "desc": "Layered with vegetables and cheese",
             "pic": "https://i.ytimg.com/vi/2qLwkT1F4Lc/maxresdefault.jpg"
@@ -19,7 +19,7 @@
         {
             "item": "3",
             "name": "Shrimp Pasta",
-            "price": "$30.00",
+            "price": "$90.00",
             "serves": "4",
             "desc": "Spaghetti and shrimp topped with tomato sauce and parsley",
             "pic": "https://rasamalaysia.com/wp-content/uploads/2019/04/italian-shrimp-pasta6.jpg"
