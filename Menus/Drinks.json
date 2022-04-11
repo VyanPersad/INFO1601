@@ -1,0 +1,54 @@
+{
+    "drink": [
+        {
+            "item":"1", 
+            "name": "Coke",
+            "price": "$8.00",
+            "serves":"1"
+        },
+        {
+            "item": "2",
+            "name": "Sprite",
+            "price": "$8.00",
+            "serves": "1"
+        },
+        {
+            "item": "3",
+            "name": "Pepsi",
+            "price": "$8.00",
+            "serves": "1"
+        }
+    ],
+    "alco": [
+        {
+            "item":"1", 
+            "name": "Carib",
+            "price": "$15.00",
+            "serves":"1"
+        },
+        {
+            "item": "2",
+            "name": "Heineken",
+            "price": "$18.00",
+            "serves": "1"
+        },
+        {
+            "item": "3",
+            "name": "BudWeiser",
+            "price": "$22.00",
+            "serves": "1"
+        },
+        {
+            "item": "4",
+            "name": "Corona",
+            "price": "$25.00",
+            "serves": "1"
+        },
+        {
+            "item": "5",
+            "name": "Estrella Dam",
+            "price": "$25.00",
+            "serves": "1"
+        }
+    ]
+}
