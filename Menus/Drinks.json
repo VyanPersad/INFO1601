@@ -17,6 +17,30 @@
             "name": "Pepsi",
             "price": "$8.00",
             "serves": "1"
+        },
+        {
+            "item": "4",
+            "name": "Fruit Juices (Orange, Fruit Punch)",
+            "price": "$8.00",
+            "serves": "1"
+        },
+        {
+            "item": "5",
+            "name": "Hot Chocolate",
+            "price": "$12.00",
+            "serves": "1"
+        },
+        {
+            "item": "6",
+            "name": "Espresso",
+            "price": "$15.00",
+            "serves": "1"
+        },
+        {
+            "item": "7",
+            "name": "Latte",
+            "price": "$25.00",
+            "serves": "1"
         }
     ],
     "alco": [
@@ -49,6 +73,48 @@
             "name": "Estrella Dam",
             "price": "$25.00",
             "serves": "1"
+        }
+    ],
+    "cocktails": [
+        {
+            "item": "1",
+            "name": "Fantasia Bellini",
+            "description": "Elderflower liqueur, a touch of passion fruit puree & a splash of prosecco.",
+            "price": "$50.00",
+            "serves": "1",
+            "pic": "https://vikalinka.com/wp-content/uploads/2018/08/Elderflower-Peach-Bellini-10-Edit-2.jpg"
+        },
+        {
+            "item": "2",
+            "name": "Negroni",
+            "price": "$52.00",
+            "description": "Premium gin mixed with Campari sweet vermouth & a lemon twist.",
+            "serves": "1",
+            "pic": "https://www.gimmesomeoven.com/wp-content/uploads/2015/06/Negroni-Recipe-Cocktail-5.jpg"
+        },
+        {
+            "item": "3",
+            "name": "The Godfather",
+            "price": "$55.00",
+            "description": "Scotch Whiskey, sweet vermouth & a splash of Angostura bitters over ice.",
+            "serves": "1",
+            "pic": "https://www.mantitlement.com/wp-content/uploads/2013/12/the-godfather-cocktail-feature.jpeg"
+        },
+        {
+            "item": "4",
+            "name": "Margarita",
+            "description": "Tequilla, Triple Sec & Margarita Mix",
+            "price": "$45.00",
+            "serves": "1",
+            "pic": "https://craftybartending.com/wp-content/uploads/2018/04/Margarita-cocktail-1.jpg"
+        },
+        {
+            "item": "5",
+            "name": "Martini",
+            "description": "Gin & Vermouth, garnished with a lemon twist",
+            "price": "$42.00",
+            "serves": "1",
+            "pic": "https://www.berlyskitchen.com/wp-content/uploads/2020/02/Lemon-Drop-Martini-7.jpg"
         }
     ]
 }

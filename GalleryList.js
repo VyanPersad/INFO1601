@@ -8,7 +8,7 @@ $(document).ready(function () {
                     <div class="mx-auto p-1">
                         <div class="card-body p-1">
                             <div class="row">
-                                <img class="align-middle" id="wnImg" src="${value.pic}">
+                                <img class="align-middle" id="wnImg" style="height:17vw" src="${value.pic}">
                             </div>
                         </div>
                         <div class="card-footer text-center">
@@ -33,7 +33,7 @@ $(document).ready(function () {
             <div class="card my-3">
                 <div class="card-body p-3">
                     <div class="row">
-                        <img class="align-middle d-flex justify-content-center" style="height:200px;"
+                        <img class="align-middle d-flex justify-content-center" style="height:15vw"
                             src="${value.pic}">
                     </div>
                 </div>
@@ -48,5 +48,55 @@ $(document).ready(function () {
         </div>`;
         });
         $('#DessertGallery').html(output);
+    });
+});
+
+//Cocktail Gallery
+$(document).ready(function () {
+    $.getJSON('Menus/Drinks.json', function (data) {
+        var output = ' ';
+        $.each(data.cocktails, function (key, value) {
+            output = output +
+                `<div class="card col-lg-2 col-md-3 mx-auto p-0 my-2" style="height:fit-content;"
+                    <div class="mx-auto p-1">
+                        <div class="card-body p-1">
+                            <div class="row">
+                                <img class="align-middle" style="height:17vw;" src="${value.pic}">
+                            </div>
+                        </div>
+                        <div class="card-footer text-center">
+                            <div class="row mx-auto h3">
+                                <p class="text-center m-0 p-0" style="font-family:'Tangerine'; font-size: 2rem;">${value.name}</p>
+                            </div>
+                            <p class="text-center h6 mx-auto" style="font-family:'Gideon Roman';">${value.description}</p>
+                        </div>
+                    </div>
+                </div>`;
+        });
+        $('#cocktailGallery').html(output);
+    });
+});
+
+//List beers
+$(document).ready(function () {
+    $.getJSON('Menus/Drinks.json', function (data) {
+        var output = ' ';
+        $.each(data.alco, function (key, value) {
+            output = output +
+                `<p class="h2 text-center m-3 p-0">${value.name}</p>`;
+        });
+        $('#beerlist').html(output);
+    });
+});
+
+//List Non-Alcoholic Drinks
+$(document).ready(function () {
+    $.getJSON('Menus/Drinks.json', function (data) {
+        var output = ' ';
+        $.each(data.drink, function (key, value) {
+            output = output +
+                `<p class="h2 text-start m-0 p-0">${value.name}</p>`;
+        });
+        $('#nonAlcoList').html(output);
     });
 });
