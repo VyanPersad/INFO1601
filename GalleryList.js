@@ -8,7 +8,7 @@ $(document).ready(function () {
                     <div class="mx-auto p-1">
                         <div class="card-body p-1">
                             <div class="row">
-                                <img class="align-middle" id="wnImg" style="height:13vh" src="${value.pic}">
+                                <img class="align-middle" id="wnImg" style="height:17vw" src="${value.pic}">
                             </div>
                         </div>
                         <div class="card-footer text-center">
@@ -61,7 +61,7 @@ $(document).ready(function () {
                     <div class="mx-auto p-1">
                         <div class="card-body p-1">
                             <div class="row">
-                                <img class="align-middle" style="height:16vh;" src="${value.pic}">
+                                <img class="align-middle" style="height:17vw;" src="${value.pic}">
                             </div>
                         </div>
                         <div class="card-footer text-center">
